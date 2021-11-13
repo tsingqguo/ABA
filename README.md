@@ -14,23 +14,16 @@ We propose the adversarial blur attack (ABA) against visual object tracking.
 
 <table>
     <tr>
-        <td ><center><img src="./case0.gif"  > <p align="center">GT vs RCDNet</p> </center></td>
-        <td ><center><img src="./case1.gif" > <p align="center">GT vs RCDNet</p> </center></td>
+        <td ><center><img src="./case6.gif" > <p align="center">Case1</p> </center></td>
+        <td ><center><img src="./case1.gif" > <p align="center">Case2</p> </center></td>
     </tr>
     <tr>
-        <td ><center><img src="./case2.gif" > <p align="center">GT vs RCDNet</p> </center></td>
+        <td ><center><img src="./case2.gif" > <p align="center">Case3</p> </center></td>
+        <td ><center><img src="./case3.gif" > <p align="center">Case4</p> </center></td>
     </tr>
     <tr>
-        <td ><center><img src="./case3.gif" > <p align="center">GT vs RCDNet</p> </center></td>
-    </tr>
-    <tr>
-        <td ><center><img src="./case4.gif" > <p align="center">GT vs RCDNet</p> </center></td>
-    </tr>
-    <tr>
-        <td ><center><img src="./case5.gif" > <p align="center">GT vs RCDNet</p> </center></td>
-    </tr>
-    <tr>
-        <td ><center><img src="./case6.gif" > <p align="center">GT vs RCDNet</p> </center></td>
+        <td ><center><img src="./case4.gif" > <p align="center">Case5</p> </center></td>
+        <td ><center><img src="./case5.gif" > <p align="center">Case6</p> </center></td>
     </tr>
 </table>
 
