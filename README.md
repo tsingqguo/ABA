@@ -15,8 +15,6 @@ We propose the adversarial blur attack (ABA) against visual object tracking.
 <table>
     <tr>
         <td ><center><img src="./case0.gif"  > <p align="center">GT vs RCDNet</p> </center></td>
-    </tr>
-    <tr>
         <td ><center><img src="./case1.gif" > <p align="center">GT vs RCDNet</p> </center></td>
     </tr>
     <tr>
