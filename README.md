@@ -1,14 +1,14 @@
 # ABA
 We propose the adversarial blur attack (ABA) against visual object tracking. 
 
-<img align="center" src="./fig1.png" swidth="500">
+<img align="center" src="./fig1.png" swidth="250">
 
 # Motion Blur Systhensis for Visual Object Tracking
 
-<img align="center" src="./fig_blusys.png" swidth="500">
+<img align="center" src="./fig_blusys.png" swidth="250">
 
 # JAMANet for One-step Adversarial Blur Attack
-<img align="center" src="./fig_arch.png" swidth="500">
+<img align="center" src="./fig_arch.png" swidth="250">
 
 ## Results
 
@@ -32,7 +32,7 @@ We propose the adversarial blur attack (ABA) against visual object tracking.
         <td ><center><img src="./case5.gif" > <p align="center">GT vs RCDNet</p> </center></td>
     </tr>
     <tr>
-        <td ><center><img src="./case7.gif" > <p align="center">GT vs RCDNet</p> </center></td>
+        <td ><center><img src="./case6.gif" > <p align="center">GT vs RCDNet</p> </center></td>
     </tr>
 </table>
 
