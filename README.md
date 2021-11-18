@@ -1,6 +1,6 @@
 # ABA
 
-We propose the adversarial blur attack (ABA) against visual object tracking.
+We propose the adversarial blur attack (ABA) against visual object tracking. The ICCV link: https://arxiv.org/abs/2107.12085 and, https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.pdf
 
 <img align="center" src="./res/fig1.png" width="500">
 
