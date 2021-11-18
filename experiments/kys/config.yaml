@@ -1,0 +1,40 @@
+META_ARC: 'kys_r50'
+
+TRACK:
+    TYPE: 'KYSTracker'
+
+BACKBONE:
+    TYPE: 'resnet50'
+    KWARGS:
+        used_layers: [2, 3, 4]
+
+ADJUST:
+    ADJUST: true
+    TYPE: 'AdjustAllLayer'
+    KWARGS:
+        in_channels: [512, 1024, 2048]
+        out_channels: [256, 256, 256]
+
+RPN:
+    TYPE: 'MultiRPN'
+    KWARGS:
+        anchor_num: 5
+        in_channels: [256, 256, 256]
+        weighted: true
+
+MASK:
+    MASK: false
+
+ANCHOR:
+    STRIDE: 8
+    RATIOS: [0.33, 0.5, 1, 2, 3]
+    SCALES: [8]
+    ANCHOR_NUM: 5
+ATTACKER:
+    METHOD: 'OIM'
+    SHOW: False
+
+PYTRACKING:
+    PARAM_DIR: './'
+    TRACKER_NAME: 'kys'
+    PARAM_NAME: 'default'

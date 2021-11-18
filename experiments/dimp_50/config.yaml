@@ -1,0 +1,13 @@
+META_ARC: 'DiMP_r50'
+
+TRACK:
+    TYPE: 'DiMPTracker'
+
+ATTACKER:
+    METHOD: 'OIM'
+    SHOW: False
+
+PYTRACKING:
+    PARAM_DIR: './'
+    TRACKER_NAME: 'dimp'
+    PARAM_NAME: 'dimp50'
